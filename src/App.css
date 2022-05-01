@@ -4,28 +4,61 @@ main {
   transition: 0.3s;
   width: 20%;
   margin: 0px auto;
-  /* display: flex; */
   justify-content: center;
   margin-top: 10vh;
   min-width: 300px;
 }
 
 .container {
-  margin-top: 10px;
-  padding-bottom: 30px;
+  margin-top: 15px;
 }
 
 .container > h1 {
   font-size: 25px;
+  margin: 0%;
 }
 
 .container > p {
   margin: 0;
   padding: 0%;
+  font-size: 15px;
+  letter-spacing: -0.05em;
 }
 
 .Foto--picture {
   width: 100%;
 }
 
+.button--component {
+  padding: 20px 0;
+}
 
+.button--component > button {
+  margin: 0 10px;
+  width: 120px;
+}
+
+.button--span {
+  margin-left: 10px;
+}
+
+.detail {
+  padding: 0 20px;
+}
+
+.detail--title {
+  text-align: left;
+}
+
+.detail--title > h2 {
+  font-size: 20px;
+  margin: 0;
+  letter-spacing: -0.06em;
+}
+
+.logo {
+  padding: 7px 20% 30px 20%;
+  display: flex;
+  justify-content: space-between;
+
+}
