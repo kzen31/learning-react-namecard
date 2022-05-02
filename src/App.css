@@ -12,16 +12,16 @@ main {
   background-color: beige;
 }
 
-.container {
+.containers {
   margin-top: 15px;
 }
 
-.container > h1 {
+.containers > h1 {
   font-size: 25px;
   margin: 0%;
 }
 
-.container > p {
+.containers > p {
   margin: 0;
   padding: 0%;
   font-size: 15px;
